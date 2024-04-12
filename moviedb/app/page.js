@@ -1,9 +1,18 @@
 import CardExample from "./components/CardExample";
-
+import NavigationBar from "./components/NavigationBar";
 
 export default function Home() {
   return (
-    <CardExample/>
+    <>
+    <NavigationBar/>
+    <div class="container">
+    
+      <CardExample class="mt-5"/>
+     
+    </div>
+    
+    </>
+    
   );
 }
 
