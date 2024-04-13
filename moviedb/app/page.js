@@ -8,7 +8,7 @@ export default function Home() {
     <NavigationBar/>
     <div class="container mt-2">
     
-      <CardExample class="mt-5"/>
+      <CardExample class="mt-2"/>
      
     </div>
     
